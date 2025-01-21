@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+
+section {
+    background-color: rgb(244, 166, 10);
+    padding: 100px 150px;
+}
+
+form {
+    background-color: white;
+    padding: 10px;
+}
+
+input[type=text], input[type=email], input[type=number] {
+    width: 250px;
+}
+
+select, textarea {
+    width: 250px;
+    height: 35px;
+}
+
+.pin {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=submit] {
+    width: 150px;
+    background-color: rgb(244, 166, 10);
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <form>
+            <div class="container">
+                <h1>Survey Form</h1>
+                <p>User stories survey form</p>
+                <div class="pin">
+                    <div>
+                        <label for="name">Name:</label>
+                    </div>
+                    <div>
+                        <input type="text" id="name" placeholder="Enter Name">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label for="email">E-mail:</label>
+                    </div>
+                    <input type="email" id="email" placeholder="Enter E-mail"><br> <br>
+                    <label for="work-experience">Work Experience:</label>
+                    <input type="number" id="work-experience" placeholder="Enter Number"><br> <br>
+                    <label for="real-estate">Are you comfortable in investing in real estate on platform without first
+                        investigating properly</label>
+                    <select name="real-estate" id="real-estate">
+                        <option value="no">No</option>
+                        <option value="yes" selected>Yes</option>
+                    </select><br><br>
+                    <label for="platform">Suggestions to build trusted platform</label>
+                    <textarea name="platform" rows="1" cols="10"></textarea><br><br>
+                </div>
+
+                <div class="checkbox">
+                    <label for="checkbox">You are ready to invest in:</label>
+                    <div>
+                        <input type="checkbox"><label for="#">Real Estate</label>
+                        <input type="checkbox"><label for="#">Mutual Funds</label>
+                        <input type="checkbox"><label for="#">Crypto Currency</label>
+                        <input type="checkbox"><label for="#">Stocks & Bonds</label>
+                    </div>
+                </div>
+
+                <div class="radio">
+                    <label for="contact">Are you ready for further contact</label>
+                    <input type="radio" id="male" name="yes" value="Yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="no" value="No">
+                    <label for="no">No</label>
+                </div>
+                <br>
+                <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+
+</html>
